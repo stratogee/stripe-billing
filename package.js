@@ -1,7 +1,7 @@
 Package.describe({
   summary: "Various stripe billing functionality packaged up.",
   version: "1.0.0",
-  git: " \* Fill me in! *\ "
+  git: "https://github.com/stratogee/stripe-billing.git"
 });
 
 Package.onUse(function(api) {
@@ -11,7 +11,7 @@ Package.onUse(function(api) {
     'templating',
     'jquery',
     'deps',
-    'accounts-t9n'
+    'softwarerero:accounts-t9n'
   ], 'client');
 
   api.use([
